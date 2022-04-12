@@ -2,8 +2,8 @@ name: Deploy to heroku
 on:
   push:
     tags:
-     - 've'
-     - '|v-alpha*'
+     - 'v*'
+     - '!v-alpha*'
 jobs:
   deploy_to heroku:
     runs-on: ubuntu-latest
