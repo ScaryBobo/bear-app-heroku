@@ -5,7 +5,7 @@ on:
      - 'v*'
      - '!v-alpha*'
 jobs:
-  deploy_to heroku:
+  deploy_to_heroku:
     runs-on: ubuntu-latest
     steps: 
      - name: Checkout
